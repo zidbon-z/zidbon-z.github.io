@@ -153,3 +153,200 @@ nav a:hover {
     opacity: 1;
   }
 }
+
+.floor1 {
+  display: grid;
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". . a . b . c . . . . ."
+    ". . . . . . . . . . . ."
+    "gng . d . e . f . g . . ."
+    "gng . . . . . . . . . . ."
+    "gng . h i j k l m n o p ."
+    "gng . q r s t u v w x y ."
+    ". . . . . . . . . . . ."
+    ". . z aa bb cc dd ee ff gg . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . bar bar bar bar bar bar";
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(11, 40px);
+  text-align: center;
+}
+
+.bar_icon {
+  grid-area: bar;
+  background: blue;
+  border: 2px solid black;
+}
+
+.gng {
+  grid-area: gng;
+  background: blue;
+  border: 2px solid black;
+}
+
+.t27 {
+  grid-area: a;
+  background: blue;
+  border: 2px solid black;
+}
+.t28 {
+  grid-area: b;
+  background: blue;
+  border: 2px solid black;
+}
+.t29 {
+  grid-area: c;
+  background: blue;
+  border: 2px solid black;
+}
+.t21 {
+  grid-area: d;
+  background: blue;
+  border: 2px solid black;
+}
+.t22 {
+  grid-area: e;
+  background: blue;
+  border: 2px solid black;
+}
+.t23 {
+  grid-area: f;
+  background: blue;
+  border: 2px solid black;
+}
+.t24 {
+  grid-area: g;
+  background: blue;
+  border: 2px solid black;
+}
+.t501 {
+  grid-area: h;
+  background: blue;
+  border: 2px solid black;
+}
+.t502 {
+  grid-area: i;
+  background: blue;
+  border: 2px solid black;
+}
+.t503 {
+  grid-area: j;
+  background: blue;
+  border: 2px solid black;
+}
+.t504 {
+  grid-area: k;
+  background: blue;
+  border: 2px solid black;
+}
+.t505 {
+  grid-area: l;
+  background: blue;
+  border: 2px solid black;
+}
+.t506 {
+  grid-area: m;
+  background: blue;
+  border: 2px solid black;
+}
+.t507 {
+  grid-area: n;
+  background: blue;
+  border: 2px solid black;
+}
+.t508 {
+  grid-area: o;
+  background: blue;
+  border: 2px solid black;
+}
+.t509 {
+  grid-area: p;
+  background: blue;
+  border: 2px solid black;
+}
+.t301 {
+  grid-area: q;
+  background: blue;
+  border: 2px solid black;
+}
+.t302 {
+  grid-area: r;
+  background: blue;
+  border: 2px solid black;
+}
+.t303 {
+  grid-area: s;
+  background: blue;
+  border: 2px solid black;
+}
+.t304 {
+  grid-area: t;
+  background: blue;
+  border: 2px solid black;
+}
+.t305 {
+  grid-area: u;
+  background: blue;
+  border: 2px solid black;
+}
+.t306 {
+  grid-area: v;
+  background: blue;
+  border: 2px solid black;
+}
+.t307 {
+  grid-area: w;
+  background: blue;
+  border: 2px solid black;
+}
+.t308 {
+  grid-area: x;
+  background: blue;
+  border: 2px solid black;
+}
+.t309 {
+  grid-area: y;
+  background: blue;
+  border: 2px solid black;
+}
+.t201 {
+  grid-area: z;
+  background: blue;
+  border: 2px solid black;
+}
+.t202 {
+  grid-area: aa;
+  background: blue;
+  border: 2px solid black;
+}
+.t203 {
+  grid-area: bb;
+  background: blue;
+  border: 2px solid black;
+}
+.t204 {
+  grid-area: cc;
+  background: blue;
+  border: 2px solid black;
+}
+.t205 {
+  grid-area: dd;
+  background: blue;
+  border: 2px solid black;
+}
+.t206 {
+  grid-area: ee;
+  background: blue;
+  border: 2px solid black;
+}
+.t207 {
+  grid-area: ff;
+  background: blue;
+  border: 2px solid black;
+}
+.t208 {
+  grid-area: gg;
+  background: blue;
+  border: 2px solid black;
+}
