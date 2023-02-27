@@ -154,13 +154,19 @@ nav a:hover {
   }
 }
 
+.section {
+  text-align: center;
+  font-size: 50px;
+  
+}
+
 .floor1 {
   display: grid;
   grid-template-areas:
     ". . . . . . . . . . . ."
     ". . a . b . c . . . . ."
     ". . . . . . . . . . . ."
-    "gng . d . e . f . g . . ."
+    "gng . . . d . e . f . g ."
     "gng . . . . . . . . . . ."
     "gng . h i j k l m n o p ."
     "gng . q r s t u v w x y ."
@@ -171,6 +177,11 @@ nav a:hover {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(11, 40px);
   text-align: center;
+}
+
+.floor1 a {
+  text-decoration: none;
+  color: black;
 }
 
 .bar_icon {
