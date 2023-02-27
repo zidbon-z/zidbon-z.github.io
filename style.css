@@ -184,18 +184,18 @@ nav a:hover {
 .floor2 {
   display: grid;
   grid-template-areas:
-    ". . . . . . . . . . . ."
-    ". . a . b . c . . . pos pos"
-    ". . . . . . . . . . . ."
-    ". . . . . . d . e . f ."
-    ". . . . . . . . . . . ."
-    ". . h i j k l m n o p ."
-    ". . q r s t u v w x y ."
-    ". . . . . . . . . . . ."
-    ". . z aa bb cc dd ee ff gg . ."
-    ". . . . . . . . . . . ."
-    ". . bar bar bar bar bar bar . . . .";
-  grid-template-columns: repeat(12, 1fr);
+    ". . . . . . . . . . . . ."
+    "hh ii jj kk ll mm nn oo pp qq rr ss tt"
+    ". . . . . . . . . . . . ."
+    ". . d . e . f . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . h i j k l m n o p . ."
+    ". . q r s t u v w x y . ."
+    ". . . . . . . . . . . . ."
+    ". . z aa bb cc dd ee ff gg . . ."
+    ". . . . . . . . . . . . ."
+    ". . bar bar bar bar bar bar . . . . .";
+  grid-template-columns: repeat(13, 1fr);
   grid-template-rows: repeat(11, 40px);
   text-align: center;
 }
@@ -383,11 +383,86 @@ nav a:hover {
   background: blue;
   border: 2px solid black;
 }
+.t701 {
+  grid-area: hh;
+  background: blue;
+  border: 2px solid black;
+}
+.t702 {
+  grid-area: ii;
+  background: blue;
+  border: 2px solid black;
+}
+.t703 {
+  grid-area: jj;
+  background: blue;
+  border: 2px solid black;
+}
+.t704 {
+  grid-area: kk;
+  background: blue;
+  border: 2px solid black;
+}
+.t705 {
+  grid-area: ll;
+  background: blue;
+  border: 2px solid black;
+}
+.t706 {
+  grid-area: mm;
+  background: blue;
+  border: 2px solid black;
+}
+.t707 {
+  grid-area: nn;
+  background: blue;
+  border: 2px solid black;
+}
+.t708 {
+  grid-area: oo;
+  background: blue;
+  border: 2px solid black;
+}
+.t709 {
+  grid-area: pp;
+  background: blue;
+  border: 2px solid black;
+}
+.t710 {
+  grid-area: qq;
+  background: blue;
+  border: 2px solid black;
+}
+.t711 {
+  grid-area: rr;
+  background: blue;
+  border: 2px solid black;
+}
+.t712 {
+  grid-area: ss;
+  background: blue;
+  border: 2px solid black;
+}
+.t713 {
+  grid-area: tt;
+  background: blue;
+  border: 2px solid black;
+}
 
 .sec2_button {
   position: absolute;
   background: blue;
   right: 0;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+.sec1_button {
+  position: absolute;
+  background: blue;
+  left: 0;
   width: 100px;
   text-align: center;
   margin-top: 10px;
