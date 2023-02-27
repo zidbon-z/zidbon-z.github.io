@@ -154,7 +154,7 @@ nav a:hover {
   }
 }
 
-.sect {
+.sec_title {
   text-align: center;
   font-size: 50px;
   
@@ -164,9 +164,9 @@ nav a:hover {
   display: grid;
   grid-template-areas:
     ". . . . . . . . . . . ."
-    ". . a . b . c . . . . ."
+    ". . a . b . c . . . pos pos"
     ". . . . . . . . . . . ."
-    "gng . . . d . e . f . g ."
+    "gng . . . . . d . e . f ."
     "gng . . . . . . . . . . ."
     "gng . h i j k l m n o p ."
     "gng . q r s t u v w x y ."
@@ -184,15 +184,21 @@ nav a:hover {
   color: black;
 }
 
+.pos {
+  grid-area: pos;
+  background: black;
+  color: white;
+}
+
 .bar_icon {
   grid-area: bar;
-  background: blue;
+  background: purple;
   border: 2px solid black;
 }
 
 .gng {
   grid-area: gng;
-  background: blue;
+  background: green;
   border: 2px solid black;
 }
 
@@ -223,11 +229,6 @@ nav a:hover {
 }
 .t23 {
   grid-area: f;
-  background: blue;
-  border: 2px solid black;
-}
-.t24 {
-  grid-area: g;
   background: blue;
   border: 2px solid black;
 }
@@ -360,4 +361,15 @@ nav a:hover {
   grid-area: gg;
   background: blue;
   border: 2px solid black;
+}
+
+.sec2_button {
+  position: absolute;
+  background: blue;
+  right: 0;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
 }
