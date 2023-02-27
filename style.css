@@ -154,6 +154,8 @@ nav a:hover {
   }
 }
 
+/******************************************/
+
 .sec_title {
   text-align: center;
   font-size: 50px;
@@ -174,6 +176,25 @@ nav a:hover {
     ". . z aa bb cc dd ee ff gg . ."
     ". . . . . . . . . . . ."
     ". . . . . . bar bar bar bar bar bar";
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(11, 40px);
+  text-align: center;
+}
+
+.floor2 {
+  display: grid;
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". . a . b . c . . . pos pos"
+    ". . . . . . . . . . . ."
+    ". . . . . . d . e . f ."
+    ". . . . . . . . . . . ."
+    ". . h i j k l m n o p ."
+    ". . q r s t u v w x y ."
+    ". . . . . . . . . . . ."
+    ". . z aa bb cc dd ee ff gg . ."
+    ". . . . . . . . . . . ."
+    ". . bar bar bar bar bar bar . . . .";
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(11, 40px);
   text-align: center;
