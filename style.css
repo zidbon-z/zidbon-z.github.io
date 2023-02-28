@@ -175,9 +175,12 @@ nav a:hover {
     ". . . . . . . . . . . ."
     ". . . z aa bb cc dd ee ff gg ."
     ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
     ". . . . . . bar bar bar bar bar bar";
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(11, 40px);
+  grid-template-rows: repeat(14, 40px);
   text-align: center;
 }
 
@@ -194,9 +197,12 @@ nav a:hover {
     ". . . . . . . . . . . . ."
     ". z aa bb cc dd ee ff gg . . . ."
     ". . . . . . . . . . . . ."
-    "bar bar bar bar bar bar . . . . . . .";
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    "bar bar bar bar bar bar bar bar bar bar bar bar bar";
   grid-template-columns: repeat(13, 1fr);
-  grid-template-rows: repeat(11, 40px);
+  grid-template-rows: repeat(14, 40px);
   text-align: center;
 }
 
