@@ -173,7 +173,7 @@ nav a:hover {
     "gng . h i j k l m n o p ."
     "gng . q r s t u v w x y ."
     ". . . . . . . . . . . ."
-    ". . z aa bb cc dd ee ff gg . ."
+    ". . . z aa bb cc dd ee ff gg ."
     ". . . . . . . . . . . ."
     ". . . . . . bar bar bar bar bar bar";
   grid-template-columns: repeat(12, 1fr);
@@ -189,12 +189,12 @@ nav a:hover {
     ". . . . . . . . . . . . ."
     ". . d . e . f . . . . . ."
     ". . . . . . . . . . . . ."
-    ". . h i j k l m n o p . ."
-    ". . q r s t u v w x y . ."
+    ". h i j k l m n o p . . ."
+    ". q r s t u v w x y . . ."
     ". . . . . . . . . . . . ."
-    ". . z aa bb cc dd ee ff gg . . ."
+    ". z aa bb cc dd ee ff gg . . . ."
     ". . . . . . . . . . . . ."
-    ". . bar bar bar bar bar bar . . . . .";
+    "bar bar bar bar bar bar . . . . . . .";
   grid-template-columns: repeat(13, 1fr);
   grid-template-rows: repeat(11, 40px);
   text-align: center;
@@ -203,6 +203,7 @@ nav a:hover {
 .floor3 {
   display: grid;
   grid-template-areas:
+    ". . . . . . . . . . . ."
     ". . . . . . . .     zz . . ."
     ". . . . . jjj ttt  . . . . ."
     ". . . . . iii sss . yy . . ."
@@ -217,7 +218,7 @@ nav a:hover {
     ". . . . . . . . . . . ."
     "bar . uuu vvv www xxx yyy zzz aaaa . . .";
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(13, 40px);
+  grid-template-rows: repeat(14, 40px);
   text-align: center;
 }
 
