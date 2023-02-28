@@ -200,6 +200,27 @@ nav a:hover {
   text-align: center;
 }
 
+.floor3 {
+  display: grid;
+  grid-template-areas:
+    ". . . . . . . .     zz . . ."
+    ". . . . . jjj ttt  . . . . ."
+    ". . . . . iii sss . yy . . ."
+    ". . . . . hhh rrr  . . . . ."
+    ". . . . . ggg qqq . xx . . ."
+    ". . . . . fff ppp .  . . . ."
+    ". . . . . eee ooo . ww . . ."
+    ". . . . . ddd nnn .  . . . ."
+    ". . . . . ccc mmm . vv . . ."
+    ". . . . . bbb lll . .  . . ."
+    ". . . . . aaa kkk . uu . . ."
+    ". . . . . . . . . . . ."
+    "bar . uuu vvv www xxx yyy zzz aaaa . . .";
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(13, 40px);
+  text-align: center;
+}
+
 .floor1 a {
   text-decoration: none;
   color: black;
@@ -449,9 +470,175 @@ nav a:hover {
   border: 2px solid black;
 }
 
+.t31 {
+  grid-area: uu;
+  background: blue;
+  border: 2px solid black;
+}
+.t32 {
+  grid-area: vv;
+  background: blue;
+  border: 2px solid black;
+}
+.t33 {
+  grid-area: ww;
+  background: blue;
+  border: 2px solid black;
+}
+.t34 {
+  grid-area: xx;
+  background: blue;
+  border: 2px solid black;
+}
+.t35 {
+  grid-area: yy;
+  background: blue;
+  border: 2px solid black;
+}
+.t36 {
+  grid-area: zz;
+  background: blue;
+  border: 2px solid black;
+}
+.t801 {
+  grid-area: aaa;
+  background: blue;
+  border: 2px solid black;
+}
+.t802 {
+  grid-area: bbb;
+  background: blue;
+  border: 2px solid black;
+}
+.t803 {
+  grid-area: ccc;
+  background: blue;
+  border: 2px solid black;
+}
+.t804 {
+  grid-area: ddd;
+  background: blue;
+  border: 2px solid black;
+}
+.t805 {
+  grid-area: eee;
+  background: blue;
+  border: 2px solid black;
+}
+.t806 {
+  grid-area: fff;
+  background: blue;
+  border: 2px solid black;
+}
+.t807 {
+  grid-area: ggg;
+  background: blue;
+  border: 2px solid black;
+}
+.t808 {
+  grid-area: hhh;
+  background: blue;
+  border: 2px solid black;
+}
+.t809 {
+  grid-area: iii;
+  background: blue;
+  border: 2px solid black;
+}
+.t810 {
+  grid-area: jjj;
+  background: blue;
+  border: 2px solid black;
+}
+.t811 {
+  grid-area: kkk;
+  background: blue;
+  border: 2px solid black;
+}
+.t812 {
+  grid-area: lll;
+  background: blue;
+  border: 2px solid black;
+}
+.t813 {
+  grid-area: mmm;
+  background: blue;
+  border: 2px solid black;
+}
+.t814 {
+  grid-area: nnn;
+  background: blue;
+  border: 2px solid black;
+}
+.t815 {
+  grid-area: ooo;
+  background: blue;
+  border: 2px solid black;
+}
+.t816 {
+  grid-area: ppp;
+  background: blue;
+  border: 2px solid black;
+}
+.t817 {
+  grid-area: qqq;
+  background: blue;
+  border: 2px solid black;
+}
+.t818 {
+  grid-area: rrr;
+  background: blue;
+  border: 2px solid black;
+}
+.t819 {
+  grid-area: sss;
+  background: blue;
+  border: 2px solid black;
+}
+.t820 {
+  grid-area: ttt;
+  background: blue;
+  border: 2px solid black;
+}
+.t901 {
+  grid-area: uuu;
+  background: blue;
+  border: 2px solid black;
+}
+.t902 {
+  grid-area: vvv;
+  background: blue;
+  border: 2px solid black;
+}
+.t903 {
+  grid-area: www;
+  background: blue;
+  border: 2px solid black;
+}
+.t904 {
+  grid-area: xxx;
+  background: blue;
+  border: 2px solid black;
+}
+.t905 {
+  grid-area: yyy;
+  background: blue;
+  border: 2px solid black;
+}
+.t906 {
+  grid-area: zzz;
+  background: blue;
+  border: 2px solid black;
+}
+.t907 {
+  grid-area: aaaa;
+  background: blue;
+  border: 2px solid black;
+}
+
 .sec2_button {
   position: absolute;
-  background: blue;
+  background: grey;
   right: 0;
   width: 100px;
   text-align: center;
@@ -461,7 +648,7 @@ nav a:hover {
 }
 .sec1_button {
   position: absolute;
-  background: blue;
+  background: grey;
   left: 0;
   width: 100px;
   text-align: center;
