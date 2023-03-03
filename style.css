@@ -228,9 +228,30 @@ nav a:hover {
   text-align: center;
 }
 
-.floor1 a {
+.floor4 {
+  display: grid;
+  grid-template-areas:
+    ". . . . . . . . . . . . . ."
+    ". one one one . two two two . three three three . ."
+    ". one one one . two two two . three three three . ."
+    ". one one one . two two two . three three three . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . nnnn oooo"
+    "bbbb cccc dddd eeee ffff gggg hhhh iiii jjjj kkkk llll mmmm . ."
+    ". . . . . . . . . . . . . .";
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(8, 40px);
+  text-align: center;
+}
+
+
+.floor1 a, .floor2 a, .floor3 a, .floor4 a {
   text-decoration: none;
   color: black;
+}
+
+.floor4 a:hover {
+  background: lightgrey;
 }
 
 .pos {
@@ -245,9 +266,30 @@ nav a:hover {
   border: 2px solid black;
 }
 
+.bar_icon:hover {
+  background: magenta;
+}
+
 .gng {
   grid-area: gng;
   background: green;
+  border: 2px solid black;
+}
+
+.sec1_button_bar {
+  grid-area: one;
+  background: grey;
+  border: 2px solid black;
+}
+
+.sec2_button_bar {
+  grid-area: two;
+  background: grey;
+  border: 2px solid black;
+}
+.sec3_button_bar {
+  grid-area: three;
+  background: grey;
   border: 2px solid black;
 }
 
@@ -639,6 +681,77 @@ nav a:hover {
 }
 .t907 {
   grid-area: aaaa;
+  background: blue;
+  border: 2px solid black;
+}
+
+.t101 {
+  grid-area: bbbb;
+  background: blue;
+  border: 2px solid black;
+}
+.t102 {
+  grid-area: cccc;
+  background: blue;
+  border: 2px solid black;
+}
+.t103 {
+  grid-area: dddd;
+  background: blue;
+  border: 2px solid black;
+}
+.t104 {
+  grid-area: eeee;
+  background: blue;
+  border: 2px solid black;
+}
+.t105 {
+  grid-area: ffff;
+  background: blue;
+  border: 2px solid black;
+}
+.t106 {
+  grid-area: gggg;
+  background: blue;
+  border: 2px solid black;
+}
+.t107 {
+  grid-area: hhhh;
+  background: blue;
+  border: 2px solid black;
+}
+.t108 {
+  grid-area: iiii;
+  background: blue;
+  border: 2px solid black;
+}
+.t109 {
+  grid-area: jjjj;
+  background: blue;
+  border: 2px solid black;
+}
+.t110 {
+  grid-area: kkkk;
+  background: blue;
+  border: 2px solid black;
+}
+.t111 {
+  grid-area: llll;
+  background: blue;
+  border: 2px solid black;
+}
+.t112 {
+  grid-area: mmmm;
+  background: blue;
+  border: 2px solid black;
+}
+.t113 {
+  grid-area: nnnn;
+  background: blue;
+  border: 2px solid black;
+}
+.t114 {
+  grid-area: oooo;
   background: blue;
   border: 2px solid black;
 }
