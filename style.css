@@ -779,3 +779,7 @@ nav a:hover {
   text-decoration: none;
   color: black;
 }
+
+.sec1_button:hover, .sec2_button:hover {
+  background: lightgrey;
+}
